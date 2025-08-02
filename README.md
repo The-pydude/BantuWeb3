@@ -1,12 +1,7 @@
 # BantuWeb3
  AI-powered Web3 onboarding via chat, localized for emerging markets using Ethereum + XLayer + OKX + Polygon
+ 
  MetaBantu is a lightweight AI chatbot that simplifies crypto onboarding via WhatsApp-style chat, localized in Pidgin or Hausa/Yoruba, and rewards users with Web3 assets through smart contracts
-# BantuWeb3
-
-**AI-powered Web3 onboarding via chat, localized for emerging markets**  
-A lightweight chatbot interface that teaches users about Ethereum & Polygon in Pidgin/Hausa/Yoruba and rewards them with on-chain assets via smart contracts.
-
----
 
 ## Table of Contents
 
