@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Sample Hardhat Project
 
 # BantuWeb3
