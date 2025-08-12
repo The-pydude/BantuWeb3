@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+# Sample Hardhat Project
+
+# BantuWeb3
+
+This repo contains both the frontend and backend for the BantuWeb3 project.
+
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+
+Try running some of the following tasks:
+
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat ignition deploy ./ignition/modules/Lock.js
+```
+=======
 ##  BantuWeb3: 
 AI-Powered Web3 Onboarding for Emerging Markets
 
@@ -62,3 +81,4 @@ Our mission: **“Make crypto education as easy as texting a friend.”**
 | **Hosting**       | Vercel (frontend), Heroku / Railway (backend), Hardhat tests   |
 
 Diagram:  
+>>>>>>> d65aa5256bb86c3f9b59cf2359df399473aeac9b
