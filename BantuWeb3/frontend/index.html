@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BantuWeb3</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <!-- ✅ Botpress Webchat Embed Script -->
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+
+  <script>
+    function initBotpress() {
+      if (window.botpressWebChat) {
+        window.botpressWebChat.init({
+          composerPlaceholder: "Chat with BantuWeb3",
+          botId: "a41166c5-838e-4173-a7a2-b996b777d4d3",
+          hostUrl: "https://cdn.botpress.cloud/webchat/v1",
+          messagingUrl: "https://messaging.botpress.cloud",
+          clientId: "a41166c5-838e-4173-a7a2-b996b777d4d3",
+          lazySocket: true,
+          themeName: "light",
+          botName: "BantuWeb3 Assistant",
+          stylesheet: "https://cdn.botpress.cloud/webchat/v1/themes/light.css",
+          avatarUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg",
+          hideWidget: false,
+          showPoweredBy: false,
+          startConversation: true // ✅ This makes the bot greet the user automatically
+        });
+
+        // ✅ Open chatbox immediately
+        window.botpressWebChat.open();
+      } else {
+        // Retry until botpressWebChat is loaded
+        setTimeout(initBotpress, 50);
+      }
+    }
+
+    initBotpress();
+  </script>
+
+  <!-- ✅ Your React app -->
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
